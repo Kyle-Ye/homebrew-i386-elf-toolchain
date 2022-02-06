@@ -1,15 +1,15 @@
 class I386ElfGcc < Formula
   desc "GNU Compiler Collection targetting i386-elf"
   homepage "https://gcc.gnu.org"
-  url "https://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz"
+  url "https://github.com/Kyle-Ye/i386-elf-toolchain/blob/master/gcc-11.2.0.tar.xz"
   version "11.2.0"
-  sha256 "d08edc536b54c372a1010ff6619dd274c0f1603aa49212ba20f7aa2cda36fa8b"
+  sha256 "24c2861c9a0a4f1800349c75679d46bc0f571c015f672ae4f95b52e8b6b59e20"
   revision 1
 
   depends_on "gmp" => :build
   depends_on "mpfr" => :build
   depends_on "libmpc"
-  depends_on "nativeos/i386-elf-toolchain/i386-elf-binutils"
+  depends_on "Kyle-Ye/i386-elf-toolchain/i386-elf-binutils"
 
   def install
     mkdir "gcc-build" do

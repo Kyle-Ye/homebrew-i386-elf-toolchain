@@ -27,6 +27,10 @@ Default version is marked in bold. For older versions, you must use the
 -   i386-elf-gcc
     -   **11.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc`)**
     -   11.1.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc@11.1`).
+
+> Currently gcc has some issue with M1. See this post https://github.com/riscv-software-src/homebrew-riscv/issues/47
+> Temp using a modified version to fix it.(Comment out_host_hook_obj and host_xmake_file in gcc's config file)
+
 -   i386-elf-gdb
     -   **10.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gdb`)**
 -   i386-elf-grub
