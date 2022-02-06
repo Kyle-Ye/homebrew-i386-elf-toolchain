@@ -22,27 +22,27 @@ Default version is marked in bold. For older versions, you must use the
 @.
 
 -   i386-elf-binutils
-    -   **2.37 (`nativeos/i386-elf-toolchain/i386-elf-binutils`)**
-    -   2.36.1 (`nativeos/i386-elf-toolchain/i386-elf-binutils@2.36.1`)
+    -   **2.37 (`Kyle-Ye/i386-elf-toolchain/i386-elf-binutils`)**
+    -   2.36.1 (`Kyle-Ye/i386-elf-toolchain/i386-elf-binutils@2.36.1`)
 -   i386-elf-gcc
-    -   **11.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc`)**
-    -   11.1.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc@11.1`).
+    -   **11.2.0 (`Kyle-Ye/i386-elf-toolchain/i386-elf-gcc`)**
+    -   11.1.0 (`Kyle-Ye/i386-elf-toolchain/i386-elf-gcc@11.1`).
 
 > Currently gcc has some issue with M1. See this post https://github.com/riscv-software-src/homebrew-riscv/issues/47
 > Temp using a modified version to fix it.(Comment out_host_hook_obj and host_xmake_file in gcc's config file)
 
 -   i386-elf-gdb
-    -   **10.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gdb`)**
+    -   **10.2.0 (`Kyle-Ye/i386-elf-toolchain/i386-elf-gdb`)**
 -   i386-elf-grub
-    -   **2.0.6 (`nativeos/i386-elf-toolchain/i386-elf-grub`)**
+    -   **2.0.6 (`Kyle-Ye/i386-elf-toolchain/i386-elf-grub`)**
 
 ## How to use
 
 Tap the repository and install the packages.
 
-    brew tap nativeos/i386-elf-toolchain
-    brew install nativeos/i386-elf-toolchain/i386-elf-binutils
-    brew install nativeos/i386-elf-toolchain/i386-elf-gcc
+    brew tap Kyle-Ye/i386-elf-toolchain
+    brew install Kyle-Ye/i386-elf-toolchain/i386-elf-binutils
+    brew install Kyle-Ye/i386-elf-toolchain/i386-elf-gcc
 
 ## Disclaimer
 

@@ -1,7 +1,7 @@
 class I386ElfGcc < Formula
   desc "GNU Compiler Collection targetting i386-elf"
   homepage "https://gcc.gnu.org"
-  url "https://github.com/Kyle-Ye/i386-elf-toolchain/blob/master/gcc-11.2.0.tar.xz"
+  url "https://github.com/Kyle-Ye/homebrew-i386-elf-toolchain/blob/master/gcc-11.2.0.tar.xz"
   version "11.2.0"
   sha256 "24c2861c9a0a4f1800349c75679d46bc0f571c015f672ae4f95b52e8b6b59e20"
   revision 1
